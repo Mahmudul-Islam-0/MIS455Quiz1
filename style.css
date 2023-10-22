@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+#plandiv{
+    display: flex;
+    justify-content: space-around;
+    
+  }
+.header{
+    
+    text-align:justify;
+    background-image: url(flowerBg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    height: 40%;
+    padding-left: 150px;
+    padding-bottom: 150px;
+}
+.plans{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.planText{
+    padding-left: 20px;
+}
+
+#catDiv{
+    display: flex;
+    justify-content: space-around;
+}
+.cats{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-image: url(c1.jpg);
+    padding: 10%;
+    
+}
+.cattxt{
+    border: 2px solid black;
+    background-color: whitesmoke;
+    padding: 20px;
+}
